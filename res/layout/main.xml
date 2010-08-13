@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ *  AppBak is an Android app that assists in backing up and restoring apps.
+ *  Copyright (C) 2010 Travis Burtrum (moparisthebest)
+ *
+ *  This file is part of AppBak.
+ *
+ *  AppBak is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  AppBak is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with AppBak.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/welcomeString"
+		android:gravity="center_horizontal" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_marginBottom="15dip" android:padding="15dip"/>
+
+	
+	
+	<Button android:id="@+id/back_apps"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/back_apps"
+		android:layout_marginBottom="5dip"/>
+		
+	
+		
+	<Button android:id="@+id/rest_apps"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/rest_apps"
+		android:layout_marginBottom="5dip"/>
+		
+<View android:layout_width="fill_parent" android:layout_height="0dip" android:layout_weight="1" />
+
+<TextView android:layout_marginBottom="5dip" android:layout_height="wrap_content" android:text="@string/welcomeString2" android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_horizontal" android:layout_width="fill_parent" android:textColor="?android:attr/textColorSecondary" android:padding="3dip"></TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+Version 1.0
+
+Backup your currently installed apps to a text file, which you can use later to reinstall them from the market easily.
+
+You can also restore apps from the text file aTrackDog produces when you select “Export App List”.
+
+File selection and progress bar for backup added in 1.0.
+
+Code released under GNU/GPL here: http://android.moparisthebest.org/src/AppBak_v1.0.7z
+
+Credits:
+
+    * OpenIntents for the great, open source file selector I used.
+    * Unhandled for the awesome icon.

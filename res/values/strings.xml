@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ *  AppBak is an Android app that assists in backing up and restoring apps.
+ *  Copyright (C) 2010 Travis Burtrum (moparisthebest)
+ *
+ *  This file is part of AppBak.
+ *
+ *  AppBak is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  AppBak is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with AppBak.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<resources>
+    <string name="app_name">AppBak</string>
+
+	<string name="welcomeString">AppBak lets you backup your apps to a text file and reinstall them as well.</string>
+	<string name="welcomeString2">You may also restore your apps from the backup list that aTrackDog creates.</string>
+
+	<string name="back_apps">Backup Apps</string>
+	<string name="back_warning">Backing up apps now, this may take awhile...</string>
+	<string name="rest_apps">Restore Apps</string>
+	<string name="rest_warning">Restore Apps loads from a text file at the root of your sd card named appbak.txt</string>
+	
+	<string name="back_success">Backup saved to:&#160;</string>
+	<string name="back_fail">Failed to create directory:&#160;</string>
+	<string name="rest_fail">Failed to load any apps from backup file:&#160;</string>
+	<string name="rest_success">All apps from your backup file are already installed, congrats.</string>
+	<string name="rest_success_finish">You have looked at all your apps from your backup, choose another if you wish.</string>
+	<string name="rest_picker">Choose a backup file to load apps from.</string>
+	<string name="rest_picker_button">Open</string>
+	<string name="rest_no_market">The Android market isn\'t installed? AppBak uses it to reinstall your apps, it\'s required.</string>
+	<string name="rest_bad_file">You have chosen an invalid file.</string>
+	
+	<string name="back_file_comment">Exported by AppBak at&#160;</string>
+	
+	<string name="back_question">File name to backup to:&#160;</string>
+	
+	<string name="ok">Ok</string>
+	<string name="cancel">Cancel</string>
+	<string name="fatal_error">Fatal Error:&#160;</string>
+	
+	<string name="menu_website">Visit Website</string>
+	<string name="menu_license">View License</string>
+	<string name="no_browser">Couldn\'t start a browser.</string>
+</resources>
